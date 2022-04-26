@@ -13,11 +13,13 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{js,ts,vue}": "eslint --cache",
+    "*.{js,ts}": "eslint --cache",
     "*.{css,scss,sass,html,vue}": "stylelint",
     "*.**": "prettier --check --ignore-unknown"
   },
   "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
     "@nuxtjs/eslint-config-typescript": "^9.0.0",
     "@typescript-eslint/parser": "^5.21.0",
     "eslint": "^8.14.0",
