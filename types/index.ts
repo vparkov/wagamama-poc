@@ -3,3 +3,9 @@ export interface link {
   title: string
   url: any
 }
+
+export interface item {
+  title: string
+  description: string
+  image_url: string
+}

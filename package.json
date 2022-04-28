@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
+    "generate": "nuxi generate",
     "start": "node .output/server/index.mjs",
     "lint:js": "eslint . --ext .js,.jsx,.ts,.tsx,.vue",
     "lint:style": "stylelint \"**/*.{css,scss,sass,html,vue}\" --ignore-path .gitignore",
